@@ -17,9 +17,9 @@ $(document).ready(function(){
 
 		
 			// ajax the JSON to the server
-			$.post("receiver", credentials, function(){
+			$.post("/api/auth/register", credentials, function(){
 		
-			
+			window.location = 'bright.html';
 	}
 
 
