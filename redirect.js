@@ -1,3 +1,3 @@
 function redirect(){
-window.location = 'index.html'
+window.location = 'bright.html'
 }
